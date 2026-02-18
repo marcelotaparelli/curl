@@ -11,4 +11,8 @@
 ### Observações
 - `-X` serve para **especificar o método HTTP**.  
 - Se você não usar `-X`, o `curl` assume **GET** por padrão.  
-- Para enviar dados (`POST`, `PUT`, `PATCH`), geralmente você precisa usar `-d` (data) e definir o cabeçalho `Content-Type`.  
+- Para enviar dados (`POST`, `PUT`, `PATCH`), geralmente você precisa usar `-d` (data) e definir o cabeçalho `Content-Type`.
+
+### JSON Query (jq)
+Use `curl https://api.exemplo.com/data | jq` para ver o json formatado.
+
